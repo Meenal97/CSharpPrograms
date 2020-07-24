@@ -15,7 +15,7 @@ namespace CSharpProgramms
             PrimeOrNot number = new PrimeOrNot();
             number.Number = 78;
             string PrimeOrNot = number.Prime(number.Number);
-            Console.WriteLine(number.Number + PrimeOrNot);
+            Console.WriteLine(PrimeOrNot);
             
         }
     }
