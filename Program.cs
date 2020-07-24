@@ -6,7 +6,9 @@ namespace CSharpProgramms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            NameWithDot Name = new NameWithDot();
+            Name.FullName = "Vangipurapu Venkata Sai Laxman";
+            Name.ConvertName(Name.FullName);
         }
     }
 }
